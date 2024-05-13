@@ -1,0 +1,7 @@
+name: "check-rbac"
+version: "0.1.0"
+usage: "Check RBAC permission before installing charts"
+description: |-
+  This plugin check RBAC permission UserAccount used by Helm to be ready to install charts.
+  You can extract chart's needed RBAC in a output file
+command : "$HELM_PLUGIN_DIR/check-rbac"
